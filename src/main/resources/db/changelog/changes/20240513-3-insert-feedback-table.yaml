@@ -1,0 +1,22 @@
+#databaseChangeLog:
+#  - changeSet:
+#      id: 20240513-01
+#      author: xadica
+#      changes:
+#        - createTable:
+#            columns:
+#              - column:
+#                  autoIncrement: true
+#                  constraints:
+#                    primaryKey: true
+#                    primaryKeyName: admin_primary_id
+#                    name: id
+#                    type: int
+#                    -column:
+#                      contraints:
+#                        nullable: false
+#                        name: name
+#                        type: varchar(50)
+#                        tableName: user
+#
+#
